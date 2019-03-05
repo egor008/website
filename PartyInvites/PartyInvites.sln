@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyInvites", "PartyInvites\PartyInvites.csproj", "{3A5A9F0A-7205-4911-95BD-D793A11E9892}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyInvites", "PartyInvites\PartyInvites.csproj", "{D0FC1FE0-A1B2-4F9A-9E54-6D28F4127B6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3A5A9F0A-7205-4911-95BD-D793A11E9892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A5A9F0A-7205-4911-95BD-D793A11E9892}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A5A9F0A-7205-4911-95BD-D793A11E9892}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A5A9F0A-7205-4911-95BD-D793A11E9892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0FC1FE0-A1B2-4F9A-9E54-6D28F4127B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FC1FE0-A1B2-4F9A-9E54-6D28F4127B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FC1FE0-A1B2-4F9A-9E54-6D28F4127B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FC1FE0-A1B2-4F9A-9E54-6D28F4127B6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {02A7C9D8-EF21-4875-846A-B9E19C4B88D2}
+		SolutionGuid = {B348A418-BC4A-44BD-B4CC-A09FD9A49BB0}
 	EndGlobalSection
 EndGlobal

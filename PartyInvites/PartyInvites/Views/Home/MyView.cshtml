@@ -1,17 +1,21 @@
-﻿@{ 
-	Layout = null;
+﻿@{
+    Layout = null;
 }
 
 <!DOCTYPE html>
-
 <html>
 <head>
-	<meta name="viewport" content="width=device-width"/>
-	<title>Index</title>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
 </head>
 <body>
-	<div>
-		Hello World (from the view)
-	</div>
+    <div>
+       @ViewBag.Greeting World (from the view)
+        <p>We're going to gave an exciting party. <br />
+        (To do: sell it better. Add pictures or something.)
+        </p>
+
+        <a asp-action="RsvpForm">RSVP Now</a>
+    </div>
 </body>
 </html>
