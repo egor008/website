@@ -66,12 +66,12 @@ using PartyInvites.Models;
             WriteLiteral("\r\n<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(54, 177, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4896f3e9c9e9493e990a7a9696710663", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cb16712c18174d1aa05bc6a8cd5b475a", async() => {
                 BeginContext(60, 91, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Index</title>\r\n    ");
                 EndContext();
                 BeginContext(151, 71, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "13065606225b44c5a04aab78157d0e36", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "3560e2f54a224881a434e97220279070", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -105,12 +105,12 @@ using PartyInvites.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(233, 232, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "42f9413401fe480590d2a9958b886145", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4942294be18c4494b4659df0b4747cb2", async() => {
                 BeginContext(239, 136, true);
                 WriteLiteral("\r\n    <div class=\"text-center\">\r\n        <h3>We\'re going to have an exciting party!</h3>\r\n        <h4>And you are invited</h4>\r\n        ");
                 EndContext();
                 BeginContext(375, 61, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b47a85fb22b34409bc00c7f21524c0fc", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "630c49990b974f499e94d6c490ee64b3", async() => {
                     BeginContext(424, 8, true);
                     WriteLiteral("Rsvp Now");
                     EndContext();
