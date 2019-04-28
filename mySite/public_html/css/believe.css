@@ -1,0 +1,261 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background: #f6f6f6;
+    padding: 22px 0;
+}
+.header__container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header__container a {
+    color: black;
+    font-size: 15px;
+    padding: 27px 6px;
+    margin-right: 63px;
+}
+.logo img{width: 200px;}
+.header__container a:hover{
+    background: #ffea00;
+}
+#menu-checkbox{
+    display: none;
+}
+ul{
+    display: flex;
+}
+nav{
+    margin-top: 20px;
+}
+.top-slide {
+    background: url(../img/bg/slider_bg.png) no-repeat;
+    padding-top: 120px;
+    padding-bottom: 280px;
+    background-size: cover;
+    margin-bottom: 90px;
+}
+.top-container{
+    width: 85%;
+    margin: 0 auto;
+}
+.top-slide h2{
+    background: #ffea00;
+    display: inline;
+    font-size: 70px;
+    padding: 0 13px;
+}
+.top-slide :nth-child(2){
+    margin-bottom: 10px;
+}
+.top-slide p{
+    background: #414146;
+    display: inline;
+    font-size: 24px;
+    padding: 0 4px;
+    color: #ffffff;
+}
+.specialize-container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+   }
+   .specialize-container h3{
+    text-transform: uppercase;
+    font-size: 35px;
+   }
+   .card{
+    position: relative;
+    margin: 0 auto;
+   }
+   .card:first-child:after{
+    content: "";
+    position: absolute;
+    border: 12px solid transparent;
+    border-bottom: 12px solid #414146;
+    bottom: 90px;
+    right: 25px;
+   }
+   .first-p{
+    text-align: left;
+    font-size: 20px;
+    color:#fff;
+    margin-left: 18px;
+   }
+   .other-p{
+    color:#fff;
+    font-size: 12px;
+    padding: 12px 0;
+   }
+   .bottom-card{
+    background: #414146;
+    position: relative;
+    top: -30px;
+   }
+   .specialize-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+   }
+   .top-card{
+    background: #ffea00;
+    width: 250px;
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .top-card p{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 17px;
+    padding: 10px;
+   }
+   .top-card img{
+    padding: 10px;
+   }
+   .portfolio{
+       margin: 90%;
+       margin: 0 auto;
+       text-align: center;
+   }
+   .portfolio h4{
+       background: #424147;
+       padding: 0 8px;
+       display: inline-block;
+       color: #f5e10a;
+       font-size: 18px;
+       margin-bottom: 35px;
+   }
+   .portfolio p {
+       color: #424146;
+       font-size: 16px;
+   }
+   
+.toggles button{
+border: none;
+color: #424146;
+cursor: pointer;
+font-size: 16px;
+margin: 20px 5px;
+background: transparent;
+}
+.toggles button:after{
+    content: ' / ';
+}
+.toggles button:last-child:after{
+    content: '';
+}
+.posts{
+    width: 90%;
+    display: grid;
+    margin: 0 auto;
+    grid-gap: 15px;
+    grid-template-columns: auto auto auto auto;
+}
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+
+body{
+    height: 4000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 420px) {
+    .header__container{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .main-menu{
+        display: none;
+    }
+    .main-menu li{
+        width: 100%;
+        display: block;
+        font-style: 12px;
+    }
+    .main-menu a{
+        display: block;
+        padding: 8px;
+    }
+    .toggle-button{
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        color: #000;
+        margin-top: 20px;
+    }
+    .toggle-button:after{
+        content: attr(data-open);
+        display: block;
+    }
+    #menu-checkbox:checked + nav[role="navigation"] .main-menu{
+        display: block;
+    }
+    #menu-checkbox:checked + nav[role="navigation"] .toggle-button::after{
+        content: attr(data-close);
+    }
+    .header__container a{
+        margin-right: -65px;
+    }
+    .main-menu{
+        position: relative;
+        top: 30px;
+        right: 10px;
+    }
+    .top-slide{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .top-slide h2{
+        font-size: 32px;
+    }
+    .top-slide p{
+        font-size: 16px;
+    }
+    .specialize-container p {
+        font-size: 16px;
+    }
+    .specialize-cards{
+        flex-direction: column;
+    }
+    .card:first-child:after {
+        bottom: 80px;
+    }
+    .bottom-card{
+        margin: 0 auto;
+        width: 250px;
+    }
+    .posts{
+        grid-template-columns: auto;
+    }
+}

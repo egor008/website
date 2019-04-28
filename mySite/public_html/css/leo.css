@@ -1,0 +1,29 @@
+.head {
+    background-image: url(../img/bg/leo.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;    
+    padding-top: 48px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    font-size: 120px;
+    color: #ffffff;
+    margin: 0px 0px 0px 219px;
+    padding-right: 56px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+
+}
+.nav li {
+    margin-right:20px; 
+    list-style-type: none;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 100;
+}

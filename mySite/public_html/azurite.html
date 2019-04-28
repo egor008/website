@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Азурит научно-технологический центр</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/azurite.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="logo">
+                <img src="img/azurit/logo.png" alt="Logo">
+            </div>
+            <input type="checkbox" id="menu-checkbox">
+            <nav role="navigation">
+                <label for="menu-checkbox" class="toggle-button" data-open="Меню" data-close="Закрыть" onclick></label>
+                <ul class="main-menu">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#clients">Наши клинеты</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="top-slide" id="clients">
+            <div class="top-container">
+                Тут будет какой то текст
+            </div>
+        </section>
+        <section class="top-slide" id="about">
+            <div class="top-container">
+                Тут будет какой то текст
+            </div>
+        </section>
+        <section id="contact">
+            <div>
+                <div class="form__text">
+                    <h2>Оставь заявку</h2>
+                    <h3>Мы вам позвоним</h3>
+                </div>
+                <form id="application" action="application.php" method="POST" name="application">
+                    <input name="name" id="applicationName" maxlength="20" placeholder="Введите ваше имя" required />
+                    <input name="email" type="email" id="applicationEmail" maxlength="40" placeholder="Введите ваш E-mail"
+                        required />
+                    <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон"
+                        required />
+                    <button class="applicationButton" type="submit" form="application"> Оставить заявку </button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+<footer>
+    <div class="copyright">
+        © Copyright 2019 | Agency <a href="http://egorrozhkov.ru">Рожков Егор</a> | All Rights Reserved
+    </div>
+    <ul class="my-social">
+        <a href="https://www.instagram.com/blastgumservice/"><img src="https://img.icons8.com/color/48/000000/instagram-new.png"></a>
+        <a href="https://vk.com/public178623510"><img src="https://img.icons8.com/color/48/000000/vk-com.png"></a>
+        <a href="https://www.youtube.com/channel/UCP_yIjSNZ0v9ZW8CVfPgZ1Q"><img src="https://img.icons8.com/color/48/000000/youtube-squared.png"></a>
+    </ul>
+
+</footer>
+
+</html>

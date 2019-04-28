@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Верстка сайтов на HTML и CSS: EgorRozhkov</title>
+
+    <!--Инструкция для IE-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--- отображать страницу в маштабе 100%-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Нормализация стилей -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <!--Собственный стиль-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--Подключение веб-шрифтов-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans+Caption:400,700" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon/ic.png">
+</head>
+
+<body>
+
+    <!--.................................................
+
+Header
+
+..................................................-->
+
+    <div class="header">
+        <div class="header__title">Егор Рожков</div>
+        <div class="header__slogan">Верстка сайтов на HTML и CSS<br>HTML5 CSS3 jquery</div>
+        <div class="header__arrow">
+            <a href="#portfolio" style="color:white;" class="scrollto">
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+    <!--.................................................
+
+PORTFOLIO
+
+..................................................-->
+    <div id="portfolio" class="portfolio">
+        <div class="container">
+
+            <div class="title">Портфолио</div>
+            <!--Работа в портфолио-->
+            <div class="row">
+                <div class="col-4">
+                    <div class="portfolio-item">
+                        <a href="./believe.html"><div class="portfolio-item__img"><img src="img/portfolio/test.png" alt="Макет Leo"></div></a>
+                        <div class="portfolio-item__title">
+                            <a href="./believe.html">Новый макет</a>
+                        </div>
+                        <div class="portfolio-item__text">
+                            <p>Верстка одностраничного сайта по PSD макету.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- // Работа в портфолио-->
+
+                <!--Работа в портфолио-->
+                <div class="col-4">
+                    <div class="portfolio-item">
+                        <a href="./mycompany.html"><div class="portfolio-item__img"><img src="img/portfolio/macc.png" alt="Учебный макет Аполло"></div></a>
+                        <div class="portfolio-item__title">
+                            <a href="./mycompany.html">Учебный макет MyCompany</a>
+                        </div>
+                        <div class="portfolio-item__text">
+                            <p>Верстка лендинга компании. Мобильная адаптивность.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--// Работа в портфолио-->
+
+                <!--Работа в портфолио-->
+                <div class="col-4">
+                    <div class="portfolio-item">
+                        <a href="#openModal"><div class="portfolio-item__img"><img src="img/portfolio/project_portfolio.jpg" alt="Личный сайт портфолио"></div></a>
+                        <div class="portfolio-item__title">
+                            <a href="#openModal">Портфолио</a>
+                            <div id="openModal" class="modalDialog">
+                                <div>
+                                    <a href="#close" title="Закрыть" class="close">X</a>
+                                    <h4>Извините, в данный момент выбранная вами страница на реконструкции.</h4>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="portfolio-item__text">
+                            <p>Моё портфолио</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <!--Работа в портфолио-->
+
+
+            </div>
+            <div class="row">
+                	<div class="col-4">
+                    <div class="portfolio-item">
+                        <a href="https://blastgumservice.ru/"><div class="portfolio-item__img"><img src="img/portfolio/logo-3.png" alt="Учебный макет Аполло"></div></a>
+                        <div class="portfolio-item__title tac">
+                            <a href="https://blastgumservice.ru/">Сервисная компания BlastGumService</a>
+                        </div>
+                        <div class="portfolio-item__text">
+                            <p>Верстка многостраничного сайта на wordpress. Мобильная адаптивность.</p>
+                        </div>
+                    </div>
+                </div>
+                </div> 
+        </div>
+    </div>
+
+
+    <!--.................................................
+
+FOOTER
+..................................................-->
+
+    <div class=footer>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <p class="footer__name">© Рожков Егор</p>
+                    <p>2018 HTML Верстка и разработка сайтов:</p>
+                </div>
+                <div class="col-4">
+
+                    <p class="footer__social">Мои профили в социальных сетях:</p>
+                    <p class="footer__social-icons">
+
+                        <a href="https://vk.com/egor008" target="_blank">
+                            <i class="fa fa-vk" aria-hidden="true"></i>
+                        </a>
+
+                        <a href="https://twitter.com/rozhkov_egor" target="_blank">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+
+                        <a href="https://www.facebook.com/egor.rozhkov.77" target="_blank">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/egor008/" target="_blank">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+
+                        <a href="https://www.youtube.com/user/TheMozgolomik" target="_blank">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-4">
+                    <div><a href="https://vk.me/egor008" class="button" target="_blank">связаться Вконтакте</a></div>
+                    <p>Напиши мне, чтобы заказать или узнать<br> стоимость верстки вашего проекта</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
