@@ -10,28 +10,39 @@
 }
 
 .carousel-element {
-    height: 89vh;
+    height: 92vh;
 }
 
 .carousel_1 {
     background-image: url('../img/foto1-1.jpg');
     background-size: cover;
 }
+
 .text__background {
-    position: absolute;
-    top: 20%;
-    left: 40%;
+    width: 100%;
+    padding-top: 100px;
 }
+
+.header__logo p {
+    text-align: left;
+}
+
+.logo__text {
+    font-size: 22px;
+}
+
 .bold {
     font-weight: bold;
 }
-.text__background div{
-    color:white;
+
+.text__background div {
+    color: white;
     font-size: 50px;
     text-transform: uppercase;
     text-align: center;
 
 }
+
 .carousel_2 {
     background-image: url('../img/2.jpg');
 }
@@ -141,6 +152,7 @@ header {
     width: 100%;
     background: white;
     z-index: 2;
+    height: 8vh;
 }
 
 .header {
@@ -273,8 +285,8 @@ main .main__about {
     font-size: 44px;
 }
 
-.map {
-    margin: 20px 0;
+.four__form {
+    height: 145px;
 }
 
 .wrapper h1:after,
@@ -466,6 +478,7 @@ textarea {
     display: flex;
     justify-content: flex-end;
 }
+
 /* 
 .contact__form {
     padding: 100px 0 100px 0;
@@ -480,10 +493,10 @@ input[type=submit] {
     margin-top: 20px;
 }
 
-.contact__form h1,
+/* .contact__form h1,
 p {
     text-align: center;
-}
+} */
 
 .contact__form h1 {
     color: #000;
@@ -519,20 +532,31 @@ form p {
 } */
 .products {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
+
+footer.products {
+
+    height: 12vh;
+}
+
+.products__page .fotorama__wrap{
+    padding-top: 20px;
+}
+
 .products figure {
     width: 16%;
     margin-bottom: 20px;
 }
-.products figure span:first-child{
+
+.products figure span:first-child {
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 footer {
-    padding: 30px 0;
+    /* padding: 30px 0; */
     background: lightgray;
 }
 
@@ -569,6 +593,7 @@ footer {
 
 .header__desktop {
     display: block;
+    margin-top: 5px;
 }
 
 .header__phone {
@@ -604,10 +629,9 @@ a#menus {
 }
 
 .header__phonenumber {
-    padding: 10px 25px;
+    padding: 0 13px;
     display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #6f6f6f;
+    justify-content: flex-end;
 }
 
 .header__phonenumber img {
@@ -616,7 +640,8 @@ a#menus {
 
 .header__phonenumber span {
     font-weight: bold;
-    padding-top: 4px;
+    padding-top: 5px;
+    padding-right: 5px;
 }
 
 #toTop {
@@ -632,18 +657,33 @@ a#menus {
     background: url('../img/icon_top.png') no-repeat;
 }
 
+.fotorama__nav--thumbs {
+    margin-top: 10px;
+}
+
+.products__page {
+    height: 80vh;
+}
+
+.product__footer {
+    padding: 25px;
+}
+
 @media screen and (max-width: 1010px) {
-    .text__background{
+    .text__background {
         position: inherit;
         padding-top: 100px;
     }
-    .text__background div{
+
+    .text__background div {
         font-size: 30px;
     }
+
     .topnav a {
         display: none;
     }
-    .products figure{
+
+    .products figure {
         width: auto;
     }
 
@@ -706,6 +746,8 @@ a#menus {
     a.icon {
         color: black;
         font-size: 25px;
+        display: flex;
+        align-items: center;
     }
 
     .contact__photo {
@@ -736,7 +778,7 @@ a#menus {
         display: block;
         text-align: left;
         color: black;
-        padding: 10px 40px;
+        padding: 10px 25px;
         font-size: 20px;
         font-weight: 800;
     }
@@ -826,4 +868,11 @@ a#menus {
         margin: 10px 0 0 0;
     }
 
+    .header__logo {
+        font-size: 24px;
+    }
+
+    .logo__text {
+        font-size: 17px;
+    }
 }

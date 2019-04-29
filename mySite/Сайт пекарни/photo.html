@@ -18,19 +18,22 @@
 
 <body>
     <header>
-        <div style="
-        padding: 40px;
-        display: flex;
-        justify-content: space-between;">
+        <div class="header">
             <div class="header__logo">
-                <p>mycompany</p>
+                <p>print.moscow</p>
+                <p class="logo__text">печатаем в москве</p>
             </div>
             <nav class="header__desktop">
+                <div class="header__phonenumber">
+                    <span>+7 (999) 999-99-99</span>
+                    <a href="https://www.instagram.com/?hl=ru"><img
+                            src="https://img.icons8.com/color/48/000000/instagram.png"></a>
+                </div>
                 <div class="topnav">
                     <ul class="menu">
                         <li><a href="index.html">Главная</a></li>
-                        <li><a href="#production">Наша продукция</a>
-                            <ul class="submenu">
+                        <li><a href="#productionDes" class="scrollto">Наша продукция</a>
+                            <!-- <ul class="submenu">
                                 <li><a href="products.html">Визитки</a></li>
                                 <li><a href="products.html">Наклейки</a></li>
                                 <li><a href="products.html">Листовки</a></li>
@@ -53,39 +56,39 @@
                                 <li><a href="products.html">Буклеты</a></li>
                                 <li><a href="products.html">Флаеры</a></li>
                                 <li><a href="products.html">Каталоги</a></li>
-                            </ul>
+                            </ul> -->
                         </li>
-                        <li><a href="#photo">Фото работ</a>
+                        <li><a href="#photo" class="scrollto">Фото работ</a>
 
                         </li>
-                        <li><a href="#contacts">Контакты</a></li>
+                        <li><a href="#contacts" class="scrollto">Контакты</a></li>
                     </ul>
 
                 </div>
+
             </nav>
             <a href="#" id="menu" class="icon"><i class="iconss fas fa-align-justify"></i></a>
         </div>
         <nav class="header__phone">
             <div class="topnav" id="myTopnav">
-                <a href="index.html">Главная</a>
-                <div style="display: flex;
-                justify-content: space-between;">
-                    <a href="#production">Наша продукция</a>
-                    <a href="#" id="menus" class="icon"><i class="icons fas fa-angle-down"></i></a>
+                <a href="index.html" class="scrollto">Главная</a>
+                <div style="display: flex;justify-content: space-between;">
+                    <a href="#productionDes" class="scrollto">Наша продукция</a>
+                    <a href="#" id="menus" class="icon scrollto"><i class="icons fas fa-angle-down"></i></a>
                 </div>
                 <div class="topnas" id="myTopnas">
-                    <a href="products.html">Визитки</a>
+                    <!-- <a href="products.html">Визитки</a>
                     <a href="products.html">Наклейки</a>
-                    <a href="products.html">Листовки</a>
+                    <a href="products.html">Листовки</a> -->
                 </div>
-                <a href="index.html#photo">Фото работ</a>
-                <a class="lastUrl" href="#contacts">Контакты</a>
+                <a href="#photo" class="scrollto">Фото работ</a>
+                <a class="lastUrl scrollto" href="#contacts">Контакты</a>
 
             </div>
         </nav>
     </header>
     <main>
-        <div class="wrapper products">
+        <div class="wrapper products products__page">
             <div class="fotorama" data-nav="thumbs">
                 <img src="img/1.jpg">
                 <img src="img/2.jpg">
@@ -106,8 +109,7 @@
                     <div style="margin-bottom:10px;">Телефон:</div>
                     <div>8 (495) 223-05-23</div>
                 </div>
-                <div><a href="https://egorrozhkov.ru"><img
-                            src="https://img.icons8.com/color/48/000000/instagram-new.png"></a></div>
+                
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"
