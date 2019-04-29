@@ -10,13 +10,11 @@ $(document).ready(function(){
 
 menu.onclick = function muFunction() {
     var x = document.getElementById('myTopnav');
-
     if (x.className === "topnav"){
         x.className += " responsive";
     } else {
         x.className= "topnav"
-    }
-    
+    }    
 }
 jQuery(document).ready(function() {
     jQuery("a.scrollto").click(function () {
@@ -28,59 +26,44 @@ jQuery(document).ready(function() {
   });
 
 
-jQuery(document).ready(function(){
-                                
+jQuery(document).ready(function(){                                
     $(function() {
     $("#menus").click(function() {
     $("#myTopnas").toggleClass(" responsive");
-        })
-    
+        })    
     });
     });
 
-    jQuery(document).ready(function(){
-                                
+    jQuery(document).ready(function(){                                
         $(function() {
         $("#menus").click(function() {
             $(".icons").toggleClass("fa-angle-down fa-angle-up");
-            })
-        
+            })        
         });
         });
 
-        jQuery(document).ready(function(){
-                                
+        jQuery(document).ready(function(){                                
             $(function() {
             $("#menu").click(function() {
                 $(".iconss").toggleClass("fa-align-justify fa-times");
-                })
-            
+                })            
             });
             });
             $(function () {
 
     $(window).scroll(function () {
-
         if ($(this).scrollTop() != 0) {
-
             $('#toTop').fadeIn();
-
         } else {
-
             $('#toTop').fadeOut();
-
         }
-
     });
 
     $('#toTop').click(function () {
-
         $('body,html').animate({
             scrollTop: 0
         }, 800);
-
     });
-
 });
     
     

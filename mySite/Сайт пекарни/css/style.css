@@ -10,7 +10,7 @@
 }
 
 .carousel-element {
-    height: 92vh;
+    height: 42vh;
 }
 
 .carousel_1 {
@@ -152,11 +152,10 @@ header {
     width: 100%;
     background: white;
     z-index: 2;
-    height: 8vh;
 }
 
 .header {
-    padding: 10px 25px;
+    padding: 10px 40px;
     display: flex;
     justify-content: space-between;
 }
@@ -592,8 +591,8 @@ footer {
 }
 
 .header__desktop {
-    display: block;
-    margin-top: 5px;
+    display: flex;
+    align-items: center;
 }
 
 .header__phone {
@@ -629,19 +628,20 @@ a#menus {
 }
 
 .header__phonenumber {
-    padding: 0 13px;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
 }
 
 .header__phonenumber img {
     width: 25px;
+    padding-top: 4px;
 }
 
-.header__phonenumber span {
+.header__phonenumber a {
     font-weight: bold;
-    padding-top: 5px;
-    padding-right: 5px;
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
 }
 
 #toTop {
@@ -670,6 +670,12 @@ a#menus {
 }
 
 @media screen and (max-width: 1010px) {
+    .header{
+        padding: 10px 15px;
+    }
+    .header__phonenumber a{
+        font-size: 14px;
+    }
     .text__background {
         position: inherit;
         padding-top: 100px;
@@ -869,10 +875,10 @@ a#menus {
     }
 
     .header__logo {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .logo__text {
-        font-size: 17px;
+        font-size: 13px;
     }
 }
