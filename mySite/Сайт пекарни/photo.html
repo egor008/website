@@ -9,10 +9,12 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.theme.default.css" />
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="img/azurit/icon.png"> -->
+        <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> 
 </head>
 
 
@@ -23,16 +25,17 @@
                 <p>print.moscow</p>
                 <p class="logo__text">печатаем в москве</p>
             </div>
+            <div class="header__phonenumber">
+                <a href="tel:+74957998006">+7 (495) 799-80-06</a>
+                <a href="https://www.instagram.com/print_moscow?hl=ru"><img
+                        src="https://img.icons8.com/color/48/000000/instagram.png"></a>
+            </div>
             <nav class="header__desktop">
-                <div class="header__phonenumber">
-                    <a href="tel:+74957998006">+7 (495) 799-80-06</a>
-                    <a href="https://www.instagram.com/print_moscow?hl=ru"><img
-                            src="https://img.icons8.com/color/48/000000/instagram.png"></a>
-                </div>
+
                 <div class="topnav">
                     <ul class="menu">
                         <li><a href="index.html">Главная</a></li>
-                        <li><a href="#productionDes" class="scrollto">Наша продукция</a>
+                        <li><a href="products.html" class="scrollto">Наша продукция</a>
                             <!-- <ul class="submenu">
                                 <li><a href="products.html">Визитки</a></li>
                                 <li><a href="products.html">Наклейки</a></li>
@@ -58,7 +61,7 @@
                                 <li><a href="products.html">Каталоги</a></li>
                             </ul> -->
                         </li>
-                        <li><a href="#photo" class="scrollto">Фото работ</a>
+                        <li><a href="photo.html" class="scrollto">Фото работ</a>
 
                         </li>
                         <li><a href="#contacts" class="scrollto">Контакты</a></li>
@@ -73,7 +76,7 @@
             <div class="topnav" id="myTopnav">
                 <a href="index.html" class="scrollto">Главная</a>
                 <div style="display: flex;justify-content: space-between;">
-                    <a href="#productionDes" class="scrollto">Наша продукция</a>
+                    <a href="products.html" class="scrollto">Наша продукция</a>
                     <a href="#" id="menus" class="icon scrollto"><i class="icons fas fa-angle-down"></i></a>
                 </div>
                 <div class="topnas" id="myTopnas">
@@ -81,7 +84,7 @@
                     <a href="products.html">Наклейки</a>
                     <a href="products.html">Листовки</a> -->
                 </div>
-                <a href="#photo" class="scrollto">Фото работ</a>
+                <a href="photo.html" class="scrollto">Фото работ</a>
                 <a class="lastUrl scrollto" href="#contacts">Контакты</a>
 
             </div>
@@ -109,7 +112,7 @@
                     <div style="margin-bottom:10px;">Телефон:</div>
                     <div>8 (495) 223-05-23</div>
                 </div>
-                
+
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"
