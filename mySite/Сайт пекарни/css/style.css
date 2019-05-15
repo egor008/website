@@ -67,7 +67,7 @@ h1 {
 
 
 ul:after {
-    display: block;
+    display: none;
     content: ' ';
     clear: both;
     float: none;
@@ -141,9 +141,11 @@ header {
 }
 
 .header {
-    padding: 10px 40px;
+    margin: 10px 40px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid lightgray;
 }
 
 .header__logo {
@@ -409,7 +411,6 @@ main .main__about {
 
 .main__work {
     text-align: center;
-    margin: 50px 0;
 }
 
 .main__work h1 {
@@ -586,10 +587,13 @@ footer {
 }
 
 .header__desktop {
-    display: flex;
-    align-items: center;
+    padding: 10px 40px;
+    background-color: rgb(221,245,249);
 }
-
+.header__desktop .menu{
+    display: flex;
+    justify-content: space-evenly;
+}
 .header__phone {
     display: none;
 }
@@ -622,14 +626,12 @@ a#menus {
     display: none;
 }
 
-.header__phonenumber {
-    display: flex;
-    align-items: center;
-}
 
 .header__phonenumber img {
-    width: 25px;
+    width: 20px;
+    height: 20px;
     padding-top: 4px;
+    margin-right: 5px;
 }
 
 .header__phonenumber a {
@@ -637,6 +639,7 @@ a#menus {
     color: black;
     font-size: 20px;
     margin-right: 10px;
+    display: flex;
 }
 
 #toTop {
@@ -771,7 +774,15 @@ a#menus {
     margin: 25px 0;
 }
 
+/* Новое меню */
+.header__logo img {
+    height: 75px;
+}
+
 @media screen and (max-width: 1010px) {
+    ul:after {
+        display: block;
+    }
     .col-sm-4 {
         width: 100%;
     }
@@ -791,10 +802,19 @@ a#menus {
 
     .header {
         padding: 10px 15px;
+        margin: 0;
     }
-
+    .header__logo img{
+        height: 45px;
+    }
     .header__phonenumber a {
         font-size: 14px;
+    }
+    .header__phonenumber {
+        display: flex;
+    }
+    .header__phonenumber a{
+        margin-right: 5px;
     }
 
     .text__background {
@@ -829,6 +849,9 @@ a#menus {
     }
 
     .header__desktop {
+        display: none;
+    }
+     .header__phonenumber figcaption span{
         display: none;
     }
 
@@ -913,10 +936,6 @@ a#menus {
         padding: 10px 25px;
         font-size: 20px;
         font-weight: 800;
-    }
-
-    .topnav.responsive a.lastUrl {
-        padding-bottom: 40px;
     }
 
     main .main__welcome {
@@ -1033,3 +1052,4 @@ a#menus {
         font-size: 12px;
     }
 }
+
