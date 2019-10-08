@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PRINT.MOSCOW</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header__logo">
+                <a href="index.html">
+                    <p>print.moscow</p>
+                    <p class="logo__text">печатаем в москве</p>
+                </a>
+
+            </div>
+            <div class="header__phonenumber">
+                <a href="tel:+74957998006">+7 (495) 799-80-06</a>
+                <a href="https://www.instagram.com/print_moscow?hl=ru"><img
+                        src="https://img.icons8.com/color/48/000000/instagram.png"></a>
+            </div>
+            <nav class="header__desktop">
+
+                <div class="topnav">
+                    <ul class="menu">
+                        <li>
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li>
+                            <a href="index.html#products" class="scrollto">Наша продукция</a>
+                        </li>
+                        <li>
+                            <a href="photo.html" class="scrollto">Фото работ</a>
+                        </li>
+                        <li>
+                            <a href="#contacts" class="scrollto">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <a href="#" id="menu" class="icon"><i class="iconss fas fa-align-justify"></i></a>
+        </div>
+        <nav class="header__phone">
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="scrollto">Главная</a>
+                <div style="display: flex;justify-content: space-between;">
+                    <a href="index.html#products" class="scrollto">Наша продукция</a>
+                    <a href="#" id="menus" class="icon scrollto"><i class="icons fas fa-angle-down"></i></a>
+                </div>
+                <div class="topnas" id="myTopnas">
+                </div>
+                <a href="photo.html" class="scrollto">Фото работ</a>
+                <a class="lastUrl scrollto" href="#contacts">Контакты</a>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="main">
+            <div class="wrapper">
+                <h1>Флаеры</h1>
+                <div class="flex">
+                    <div class="col-sm-4">
+                        <div class="calc">
+                            <h2>Рассчет стоимости</h2>
+                            <label for="card_edition">Выберите тираж</label><br>
+                            <select class="form-control" name="edition" id="card_edition">
+                                <option value="90">90</option>
+                                <option value="120">120</option>
+                                <option value="150">150</option>
+                                <option value="180">180</option>
+                                <option value="210">210</option>
+                                <option value="240">240</option>
+                                <option value="270">270</option>
+                                <option value="300">300</option>
+                                <option value="360">360</option>
+                                <option value="420">420</option>
+                                <option value="510">510</option>
+                                <option value="600">600</option>
+                                <option value="900">900</option>
+                                <option value="1020">1020</option>
+                                <option value="1500">1500</option>
+                                <option value="3000">3000</option>
+                            </select>
+                            <br>
+                            <label for="card_paper">Выберите бумагу</label>
+                            <select name="card_paper" id="card_paper" class="form-control">
+                                <option data-paper-ratio="6.8" value="Мелованная бумага(белая)">Мелованная бумага(белая)
+                                </option>
+                                <option data-paper-ratio="40.5" value="Бумага повышанной белезны">Бумага повышанной
+                                    белезны</option>
+                                <option data-paper-ratio="45" value="Prestige Лён">Prestige Лён</option>
+                            </select>
+                            <br>
+                            <label for="card_color">Выберите цветность</label>
+                            <select name="card_color" id="card_color" class="form-control">
+                                <option data-print="14" data-print-file="110" data-color="1"
+                                    value="Односторонняя черно-белая">Односторонняя черно-белая</option>
+                                <option data-print="28" data-print-file="220" data-color="2"
+                                    value="Двусторонняя черно-белая">Двусторонняя черно-белая</option>
+                                <option data-print="37" data-print-file="110" data-color="3"
+                                    value="Односторонняя Цветная">Односторонняя Цветная</option>
+                                <option data-print="51" data-print-file="220" data-color="4"
+                                    value="Цветная с лицевой, ч/б с оборотной">Цветная с лицевой, ч/б с оборотной
+                                </option>
+                                <option data-print="74" data-print-file="220" data-color="5"
+                                    value="Двусторонняя цветная">Двусторонняя цветная</option>
+                            </select>
+                            <br>
+                            <small>Приблизительная</small><br>
+                            <h4>Стоимость за тираж</h4>
+                            <p class="price">
+                                <span id="final_price">172.4</span>
+                                Руб.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="card-images text-center">
+                            <img src="img/1_0.png" alt="" id="card_1_0">
+                            <img src="img/1_1.png" alt="" id="card_1_1">
+                            <img src="img/4_0.png" alt="" id="card_4_0">
+                            <img src="img/4_1.png" alt="" id="card_4_1">
+                            <img src="img/4_4.png" alt="" id="card_4_4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="examples">
+            <div class="wrapper">
+                <div class="examples__header">
+                    <h4>Примеры визиток</h4>
+                </div>
+                <div class="examples__photos">
+                    <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg"
+                        data-lightbox="example-set"><img class="example-image"
+                            src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt="" /></a>
+                    <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg"
+                        data-lightbox="example-set"><img class="example-image"
+                            src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt="" /></a>
+                    <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg"
+                        data-lightbox="example-set"><img class="example-image"
+                            src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt="" /></a>
+                    <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg"
+                        data-lightbox="example-set"><img class="example-image"
+                            src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="" /></a>
+                </div>
+                <div>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nulla quam
+                        velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac
+                        blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris
+                        molestie elit, et lacinia ipsum quam nec dui.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nulla quam
+                        velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac
+                        blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris
+                        molestie elit, et lacinia ipsum quam nec dui.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nulla quam
+                        velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac
+                        blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris
+                        molestie elit, et lacinia ipsum quam nec dui. </span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla quam
+                    velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac
+                    blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris
+                    molestie elit, et lacinia ipsum quam nec dui.
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer__adress">
+                    <div style="margin-bottom:10px;">Адрес:</div>
+                    <div>Большая Семеновская ул., 38, Москва, 107023</div>
+                </div>
+                <div class="footer__phone">
+                    <div style="margin-bottom:10px;">Телефон:</div>
+                    <div><a href="tel:+74957998006">+7 (495) 799-80-06</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+
+</html>

@@ -30,6 +30,7 @@ $msg .= "<p><strong>Телефон:</strong> ".$usertel."</p>\r\n";
 $msg .= "</body></html>";
 
 // отправка сообщения
+if ($_POST['check'] != 'secretcode') exit('Spam decected');
 if(@mail($sendto, $subject, $msg, $headers)) {
 	echo "<center>Заявка успешна отправлена. С вами свяжутся в течение 15 минут.</center>";
 } else {

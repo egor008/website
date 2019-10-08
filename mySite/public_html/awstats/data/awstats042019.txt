@@ -1,0 +1,798 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201904 will be lost/reset.
+# Last config file used to build this data file was ./awstats.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1971                
+POS_TIME 2649                
+POS_VISITOR 22458               
+POS_DAY 29029               
+POS_DOMAIN 3423                
+POS_LOGIN 3869                
+POS_ROBOT 4024                
+POS_WORMS 4627                
+POS_EMAILSENDER 4758                
+POS_EMAILRECEIVER 4901                
+POS_SESSION 29778               
+POS_SIDER 29986               
+POS_FILETYPES 5036                
+POS_DOWNLOADS 5121                
+POS_OS 5169                
+POS_BROWSER 5438                
+POS_SCREENSIZE 6971                
+POS_UNKNOWNREFERER 7045                
+POS_UNKNOWNREFERERBROWSER 7501                
+POS_ORIGIN 7668                
+POS_SEREFERRALS 7808                
+POS_PAGEREFS 7974                
+POS_SEARCHWORDS 8336                
+POS_KEYWORDS 8488                
+POS_MISC 2313                
+POS_ERRORS 8547                
+POS_CLUSTER 3725                
+POS_SIDER_404 8671                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190501000022 15 3066 17743071881717
+FirstTime 20190401023433
+LastTime 20190430235949
+LastUpdate 20190501071021 15 0 14 0 0
+TotalVisits 261                 
+TotalUnique 166                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 166                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 40 40 653140 57 96 113524
+1 20 20 178023 49 75 48320
+2 21 21 211943 27 78 70999
+3 7 7 57379 35 55 57343
+4 6 6 47160 31 37 38172
+5 6 6 49519 24 63 29670
+6 19 19 141480 23 78 48308
+7 7 7 51909 21 74 102019
+8 13 13 188958 20 32 46606
+9 22 22 346772 11 26 65980
+10 15 15 230870 12 62 51520
+11 10 10 121979 11 21 42314
+12 15 15 187915 26 39 22517
+13 11 11 100934 22 39 46314
+14 11 11 135580 15 22 34241
+15 6 6 83474 14 71 61833
+16 13 13 121656 68 120 48992
+17 5 5 39300 37 50 33076
+18 19 19 142036 37 43 45304
+19 8 8 123360 29 39 22044
+20 28 28 458615 48 59 123960
+21 35 35 419769 34 47 46508
+22 42 42 691005 33 97 93250
+23 63 63 991317 33 119 43459
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 17
+ru 314 314 4628758
+us 58 58 449596
+ua 14 14 102180
+de 11 11 101465
+fr 11 11 87016
+ip 9 9 116402
+ro 7 7 146640
+ca 3 3 23580
+gb 3 3 23580
+hu 3 3 24136
+cn 1 1 7860
+cz 1 1 7860
+lv 1 1 7860
+zw 1 1 7860
+nl 1 1 7860
+bg 3 3 23580
+ch 1 1 7860
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+yandex 41 328090 20190429091409 0
+bot[\s_+:,\.\;\/\\-] 36 144951 20190430151357 0
+bingbot 33 201774 20190429083002 0
+no_user_agent 14 110040 20190428202747 0
+googlebot 11 80959 20190430213725 0
+python 7 39300 20190428223228 0
+[\s_+:,\.\;\/\\-]bot 6 48272 20190408025643 0
+mail\.ru 5 0 20190424174017 0
+semrushbot 4 31440 20190420155647 0
+ahrefsbot 3 23580 20190417041506 0
+netcraft 1 7860 20190401225617 0
+favicon 2 15720 20190414072949 0
+crawl 2 15720 20190428181003 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 442 5774093 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+ios_iphone 94 94
+macosx8 1 1
+win7 54 54
+win8 5 5
+Unknown 67 67
+win8.1 5 5
+winxp 14 14
+win10 157 157
+macosx10 3 3
+macosx 15 15
+linuxandroid 11 11
+macosx11 1 1
+winnt 1 1
+ios_ipad 1 1
+winlong 7 7
+linux 6 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 76
+chrome15610 1 1
+chrome73.0.3683.103 82 82
+opera54.0.2952.71 3 3
+chrome28.0.1550.1 1 1
+firefox45.0 1 1
+firefox43.0 1 1
+chrome66.0.3359.139 1 1
+opera49.0.2725.47 1 1
+edge17 1 1
+chrome65.0.3325.146 2 2
+opera53.0.2907.68 1 1
+chrome14399 1 1
+chrome43.0.2376.69 2 2
+firefox3.0.19 1 1
+chrome41.0.2224.3 1 1
+chrome58.0.3029.110 1 1
+safari 32 32
+firefox56.0 1 1
+msie8.0 1 1
+chrome68.0.3440.75 2 2
+firefox62.0 1 1
+opera54.0.2952.51 3 3
+opera11.51 3 3
+safari12.0 15 15
+chrome34.0.1847.116 4 4
+chrome84884 1 1
+chrome67920 1 1
+chrome68.0.3440.106 2 2
+firefox64.0 1 1
+opera53.0.2907.106 2 2
+chrome99893 1 1
+chrome60.0.3112.113 2 2
+safari11.0 13 13
+firefox42.0 1 1
+firefox35.0 1 1
+safari12.0.1 2 2
+chrome42.0.2311.90 9 9
+chrome52.0.2777.85 1 1
+msie7.0 7 7
+chrome49.0.2623.112 1 1
+chrome70.0.3538.110 1 1
+opera55.0.2994.44 1 1
+msie9.0 7 7
+firefox24.0 1 1
+chrome67.0.3396.79 2 2
+chrome63.0.3239.132 6 6
+chrome73.0.3683.86 10 10
+chrome69.0.3497.81 1 1
+chrome66.0.3359.117 1 1
+iphone 1 1
+safari12.1 39 39
+chrome66.0.3359.181 6 6
+chrome73.0.3683.90 3 3
+firefox3.0.1 2 2
+Unknown 40 40
+firefox65.0 1 1
+chrome68.0.3440.84 2 2
+msie11.0 1 1
+msie10.0 5 5
+firefox66.0 1 1
+opera54.0.2952.64 3 3
+opera58.0.3135.127 1 1
+opera10.01 2 2
+opera36.0.2130.32 3 3
+firefox55.0 5 5
+chrome72.0.3626.121 3 3
+chrome26.0.1410.65 1 1
+chrome67.0.3396.99 5 5
+chrome52.0.2743.116 2 2
+opera54.0.2952.54 3 3
+mozilla 29 29
+chrome620.0.2840.59 1 1
+chrome74.0.3729.108 37 37
+chrome71.0.3578.98 1 1
+chrome61.0.3163.128 4 4
+msie6.0 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+\ 20190427232423
+Go-http-client/2.0 20190430062014
+Go-http-client/1.1 20190430002647
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20190429232948
+Mozilla/5.0_(compatible;_WebDataStats/1.0_;__https://webdatastats.com/policy.html) 20190426013047
+Mozilla/5.0_(compatible;_BackupLand/1.0;_https://go.backupland.com/;_Domain_check_for_viruses;) 20190430030259
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+\ 20190427232423
+Go-http-client/2.0 20190430062014
+Go-http-client/1.1 20190430002647
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 282 282
+From1 5 5
+From2 17 17
+From3 86 86
+From4 52 52
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+yandex 8 8
+google 9 9
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://away.vk.com/away.php 52 52
+http://whatsappbot.flyland.ru 17 17
+https://away.vk.com/away.php 7 7
+http://whatsapplanding.flyland.ru 4 4
+http://azurite.ru 3 3
+http://ds48-orel.ru 2 2
+http://l.instagram.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+301 1 239
+401 1 381
+206 2 29388
+404 1158 258559
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 223
+/wp-includes/js/jquery/ui/effect.min.js 9 http://egorrozhkov.ru/2017/03/12/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82-%D0%BC%D0%B8%D1%80/
+/downloader/ 1 -
+/wp-includes/js/jquery/ui/core.min.js 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/elfinder/php/connector.minimal.php 2 -
+/robototx/img/portfolio%20work%209.png 1 http://egorrozhkov.ru/robototx/index.html
+/wp-includes/js/wp-emoji-release.min.js 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/wp-icoud.php 1 -
+/wp-includes/wlwmanifest.xml 3 -
+/js/api.js 1 -
+/wp-content/plugins/js_composer/assets/css/js_composer.min.css 4 http://egorrozhkov.ru/freedemonstration/
+/robototx/images/prettyPhoto/default/sprite.png 3 http://egorrozhkov.ru/robototx/css/prettyPhoto.css
+/cms/wp-includes/wlwmanifest.xml 3 -
+/admin/login.php 5 http://egorrozhkov.ru/admin/login.php
+//phpmyadmin// 1 -
+/fck/editor/filemanager/connectors/php/connector.php 1 -
+/wp-content/themes/betheme/css/shortcodes.css 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/.well-known/assetlinks.json 5 -
+/blog/robots.txt 6 -
+/administrator/index.php 5 -
+//administrator//webconfig.txt.php 6 http://www.google.com.hk
+//wp-admin/admin-ajax.php 2 http://www.google.com.hk
+/include/ajax/textPreview.php 1 -
+/news/wp-includes/wlwmanifest.xml 2 -
+/admin/textolite.css 1 http://egorrozhkov.ru/admin/textolite.css
+/rss/catalog/notifystock/ 1 -
+/robototx/img/portfolio%20work%201.png 1 http://egorrozhkov.ru/robototx/index.html
+/js/admin.js 1 -
+/robototx/img/portfolio%20work%202.png 1 http://egorrozhkov.ru/robototx/index.html
+/print.moscow/index.html 1 -
+/wp-content/themes/betheme/js/parallax/translate3d.js 10 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/typo3/border.html 1 -
+/robototx/img/portfolio%20work%206.png 1 http://egorrozhkov.ru/robototx/index.html
+/wp-conde.php 1 -
+/2019/01/25/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82-%D0%BC%D0%B8%D1%80/ 1 -
+/wp-includes/js/jquery/jquery-migrate.min.js 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/engine/engine.php 1 -
+/robototx/css/bootstrap.min.css.map 4 -
+/assets/index.html 1 -
+/password_double_opt.php 1 -
+/wp-content/plugins/contact-form-7/includes/js/scripts.js 10 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/wp-includes/images/hon2our.php 1 -
+/shop/wp-includes/wlwmanifest.xml 2 -
+/kcfinder/browse.php 1 -
+/admin/ 2 -
+/indy/indy.css 2 http://egorrozhkov.ru/indy/indy.css
+/fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/administrator/ 1 -
+/icms 1 http://egorrozhkov.ru/icms
+/scripts/admin/popup.js 1 http://egorrozhkov.ru/scripts/admin/popup.js
+/index.php/admin/ 2 http://egorrozhkov.ru/index.php/admin/
+/robototx/images/prettyPhoto/light_rounded/btnNext.png 1 http://egorrozhkov.ru/robototx/css/prettyPhoto.css
+/2016/wp-includes/wlwmanifest.xml 2 -
+/wp-content/themes/betheme/assets/jplayer/jplayer.min.js 10 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/manager/ 2 http://egorrozhkov.ru/manager/
+/js/easy.php 1 -
+/website/wp-includes/wlwmanifest.xml 2 -
+/wp/ 3 -
+/main/feed/ 1 -
+/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/license.php 2 -
+/robototx/img/portfolio%20work%204.png 1 http://egorrozhkov.ru/robototx/index.html
+/admin.php 2 http://egorrozhkov.ru/admin.php
+/xmlrpc.php 9 -
+/cms/ 2 http://egorrozhkov.ru/cms/
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/skins/simpla_blue/style.css 2 http://egorrozhkov.ru/skins/simpla_blue/style.css
+/manager 2 http://egorrozhkov.ru/manager
+//templates/system/css/system.css 2 http://www.google.com.hk
+/hostcmsfiles/main.js 1 -
+//wp-admin/admin-post.php 19 http://www.google.com.hk
+/img/team1.jpg 1 http://egorrozhkov.ru/robototx/css/style.css
+/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/joomla/robots.txt 3 -
+/bps.php 1 -
+/phpmyadmin/ 1 -
+/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B3%D1%80%D0%B0%D1%84%D1%84%D0%B8%D1%82%D0%B8/ 2 -
+/libraries/sfn.php 1 -
+/etm/indy.css 2 http://egorrozhkov.ru/etm/indy.css
+/wp-content/uploads/pum/pum-site-styles.css 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+//wp-login.php 2 http://www.google.com.hk
+/engine/classes/js/dle_js.js 2 http://egorrozhkov.ru/engine/classes/js/dle_js.js
+/robororx/index.html 3 -
+/FCK/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/wp-login.php 249 -
+/joomla/administrator/index.php 3 -
+/wp-content/themes/betheme/css/responsive.css 10 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/site/wp-includes/wlwmanifest.xml 3 -
+/wp-content/plugins/contact-form-7/includes/css/styles.css 8 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/media/wp-includes/wlwmanifest.xml 2 -
+/robototx/images/prettyPhoto/default/sprite_y.png 1 http://egorrozhkov.ru/robototx/css/prettyPhoto.css
+///webconfig.txt.php 6 http://www.google.com.hk
+/wp-content/plugins/sticky-side-buttons/assets/js/ssb-ui-js.js 10 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js 5 http://egorrozhkov.ru/freedemonstration/
+/wp-content/themes/betheme/assets/ui/jquery.ui.all.css 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/libraries/jscripts/kcfinder/browse.php 7 -
+/robototx/images/prettyPhoto/default/sprite_x.png 1 http://egorrozhkov.ru/robototx/css/prettyPhoto.css
+/includes/init.php 1 -
+/cms/admin/index.php 1 -
+/sito/wp-includes/wlwmanifest.xml 2 -
+/robototx/img/portfolio%20work%207.png 1 http://egorrozhkov.ru/robototx/index.html
+/2018/wp-includes/wlwmanifest.xml 2 -
+/wp-content/themes/betheme/js/scripts.js 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/ 4 -
+/wordpress/wp-includes/wlwmanifest.xml 3 -
+/user/register 1 -
+/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B6%D0%B5%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D1%80%D0%B5%D0%B7%D0%B8%D0%BD%D0%BA%D0%B8/ 1 -
+/sitemap_index.xml 2 -
+/wordpress1/wp-login.php 1 -
+/wp-includes/js/wp-embed.min.js 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/blog/wp-includes/wlwmanifest.xml 3 -
+/wp-content/plugins/temp.php 1 -
+/static/common.css 2 http://egorrozhkov.ru/static/common.css
+/wp2/wp-includes/wlwmanifest.xml 2 -
+/wp-content/themes/betheme/assets/jplayer/css/jplayer.blue.monday.css 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/wp-includes/js/jquery/ui/mouse.min.js 8 http://egorrozhkov.ru/2017/03/12/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82-%D0%BC%D0%B8%D1%80/
+/registration/ 1 -
+/feed/ 1 -
+/wp/wp-login.php 1 -
+//webconfig.txt.php 7 http://www.google.com.hk
+/blog/administrator/index.php 3 -
+/wp-admin/install.php 1 -
+/robototx/img/portfolio%20work%2011.png 1 http://egorrozhkov.ru/robototx/index.html
+/admin 2 http://egorrozhkov.ru/admin
+/img/2.jpg 1 http://egorrozhkov.ru/robototx/css/style.css
+/sql/ 1 -
+/core/xpdo/changelog.txt 1 -
+/,92.53.96.131 1 -
+/printmoscow/products.html 1 http://egorrozhkov.ru/printmoscow/index.html
+/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/ 2 -
+/wp-includes/js/jquery/ui/widget.min.js 8 http://egorrozhkov.ru/2017/03/12/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82-%D0%BC%D0%B8%D1%80/
+/wp-json/oembed/1.0/embed 4 -
+/freedemonstration/ 1 -
+/wp/wp-includes/wlwmanifest.xml 3 -
+/wp-includes/js/jquery/ui/effect-shake.min.js 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/web/wp-includes/wlwmanifest.xml 2 -
+/wp-content/uploads/pum/pum-site-scripts.js 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/contacts/ 9 -
+/wordpress/ 3 -
+/wp-content/themes/betheme/assets/animations/animations.min.css 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/e107_admin/admin.php 1 http://egorrozhkov.ru/e107_admin/admin.php
+/2019/01/ 1 -
+/myadmin/ 1 -
+/admin/images/cal_date_over.gif 3 -
+/follow.php 1 -
+/index.php/login 1 http://egorrozhkov.ru/index.php/login
+/modules/mod_stats.xml 2 http://egorrozhkov.ru/modules/mod_stats.xml
+/admin/login 2 http://egorrozhkov.ru/admin/login
+/robots.txt 199 -
+/1-2/feed/ 1 -
+/netcat/ 2 http://egorrozhkov.ru/netcat/
+/wp-content/plugins/sticky-side-buttons/assets/css/font-awesome.css 8 http://egorrozhkov.ru/2017/03/12/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82-%D0%BC%D0%B8%D1%80/
+/test/wp-includes/wlwmanifest.xml 2 -
+/wp-includes/js/comment-reply.min.js 10 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/fck/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/phpshop/admpanel/ 1 -
+/robototx/index.html 8 -
+/temp.php 1 -
+/robototx/img/portfolio%20work%2010.png 1 http://egorrozhkov.ru/robototx/index.html
+/%D0%BA%D0%BB%D0%B8%D0%BD%D0%B8%D0%BD%D0%B3/ 2 -
+/wp-content/themes/betheme/js/menu.js 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/assets/images/seo_script.php 1 -
+/shop_content.php 1 -
+/2015/wp-includes/wlwmanifest.xml 2 -
+/robototx/img/portfolio%20work%208.png 1 http://egorrozhkov.ru/robototx/index.html
+/wp-content/themes/betheme/js/plugins.js 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/%D0%BF%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B5%D1%82%D1%8C/ 1 -
+/wp-includes/css/dist/block-library/style.min.css 10 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/assets/modules/docmanager/js/docmanager.js 1 -
+/administrator/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/1-2/ 1 -
+/modules 2 http://egorrozhkov.ru/modules
+/wp1/wp-includes/wlwmanifest.xml 2 -
+/seo_script.php 1 -
+/wp-content/themes/betheme/css/layout.css 10 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/administrator/fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/user/login 2 http://egorrozhkov.ru/user/login
+/admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/netcat/admin/ 2 -
+/wp-includes/js/jquery/ui/tabs.min.js 8 http://egorrozhkov.ru/2017/03/12/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82-%D0%BC%D0%B8%D1%80/
+/yqrdjhikyvijpde 1 http://egorrozhkov.ru/yqrdjhikyvijpde
+/wp-content/plugins/sticky-side-buttons/assets/css/ssb-ui-style.css 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/sitemap.xml 1 -
+/FCKeditor/editor/filemanager/connectors/php/connector.php 1 -
+/templates/system/css/system.css 3 -
+/index.html&quot 1 https://yandex.ru/clck/jsredir
+/mscms/ 2 http://egorrozhkov.ru/mscms/
+/wp-content/themes/betheme/style.css 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/bitrix/admin/ 2 http://egorrozhkov.ru/bitrix/admin/
+/wp-ajax-hook.php 1 -
+/wp-includes/js/jquery/ui/position.min.js 12 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/cms/lang/ru_utf8/css/sbIndex.css 3 http://egorrozhkov.ru/cms/lang/ru_utf8/css/sbIndex.css
+/store_closed.html 1 -
+/FCK/editor/filemanager/connectors/php/connector.php 1 -
+/admin/fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/wp-includes/js/jquery/ui/accordion.min.js 10 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/admin/events/last/ 1 -
+/wp-content/themes/betheme/css/base.css 11 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/static/cartreminder.js 2 http://egorrozhkov.ru/static/cartreminder.js
+/admin/index.php 2 http://egorrozhkov.ru/admin/index.php
+/vamshop.txt 1 -
+/index.php 7 -
+/redirect.php 1 -
+/robototx/img/portfolio%20work%205.png 1 http://egorrozhkov.ru/robototx/index.html
+/mysqladmin/ 1 -
+/phqmv.php 1 -
+/wp-content/themes/betheme/assets/animations/animations.min.js 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/2017/wp-includes/wlwmanifest.xml 2 -
+/robotx/index.html 1 -
+/wp-content/themes/betheme/assets/prettyPhoto/prettyPhoto.css 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/wp-includes/js/jquery/jquery.js 9 http://egorrozhkov.ru/2019/02/09/%D0%B2%D0%B8%D0%B4%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82/
+/pma/ 1 -
+/%D0%BA%D1%80%D0%B8%D0%BE%D0%B3%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B3/ 4 -
+/wp-includes/js/jquery/ui/sortable.min.js 9 http://egorrozhkov.ru/2017/03/12/%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82-%D0%BC%D0%B8%D1%80/
+/adm/css/errors.css 1 http://egorrozhkov.ru/adm/css/errors.css
+/robototx/images/prettyPhoto/default/loader.gif 1 http://egorrozhkov.ru/robototx/css/prettyPhoto.css
+/nova 1 http://egorrozhkov.ru/nova
+/%D0%BD%D0%B0%D1%88%D0%B8-%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D1%8B/ 1 -
+/log.php 1 -
+/admin/FCKeditor/editor/filemanager/connectors/php/connector.php 1 -
+/wp-content/plugins/log.php 1 -
+/blog/ 3 -
+/phpMyAdmin/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 166
+79.172.68.231 45 45 754687 20190418080402
+188.255.13.79 27 27 499430 20190429233436
+193.232.176.46 25 25 468490 20190426142142
+79.172.105.203 24 24 416535 20190425235727
+94.29.38.34 20 20 157200 20190423013944
+185.12.124.78 18 18 141480 20190430030259
+195.88.193.2 13 13 269667 20190430014253
+80.249.193.177 10 10 186013 20190423112938
+176.98.69.217 8 8 62880 20190428064435
+195.211.23.206 7 7 127474 20190429232948
+65.154.226.126 1 1 7860 20190415234840
+34.220.146.91 1 1 7860 20190402171921
+192.99.4.37 3 3 23580 20190420130524
+31.135.76.13 1 1 7860 20190413011009
+2a02:6b8:0:1a08::11 1 1 21528 20190418193857
+18.237.118.159 1 1 7860 20190415095724
+52.12.22.119 1 1 7860 20190409200915
+2001:6d0:ffc8:a0e9:: 1 1 7860 20190427232423
+145.239.130.10 3 3 23580 20190418011350
+34.212.177.253 1 1 7860 20190416182508
+79.172.114.45 1 1 7860 20190401231215
+146.120.70.226 1 1 7860 20190417071659
+195.88.193.31 1 1 18291 20190416234248
+79.172.120.193 3 3 58513 20190429234808
+109.234.36.228 1 1 7860 20190404142020
+93.185.202.217 1 1 7860 20190409213422
+5.188.62.5 1 1 7860 20190421204748
+154.16.85.235 1 1 7860 20190404173202
+2002:b9ea:da6d::b9ea:da6d 2 2 15720 20190407062713
+176.15.197.190 2 2 15720 20190416223916
+185.86.93.54 1 1 7860 20190426013047
+52.33.161.69 1 1 7860 20190419061740
+109.184.162.94 2 2 15720 20190422132350
+94.25.168.22 2 2 40938 20190417202527
+46.17.203.253 2 2 18079 20190406024657
+109.184.230.178 1 1 7860 20190412080058
+178.140.152.194 1 1 1318 20190410155652
+46.160.110.146 1 1 7860 20190428215343
+54.185.146.55 1 1 7860 20190412060308
+34.222.124.248 1 1 7860 20190415061709
+34.209.214.92 1 1 7860 20190424231309
+132.145.201.21 1 1 7860 20190424203037
+2a00:1fa0:8d4:512f:e035:e6bd:93f3:7d1e 1 1 21528 20190418104729
+95.211.226.77 1 1 7860 20190404121548
+195.88.193.14 3 3 87864 20190428121956
+195.62.62.247 1 1 7860 20190404010828
+109.191.24.208 1 1 7860 20190415024638
+83.220.238.146 1 1 7860 20190405032639
+45.76.143.63 1 1 7860 20190413134237
+95.24.8.55 1 1 7860 20190417205154
+91.246.102.228 7 7 123513 20190429125822
+54.191.224.148 1 1 7860 20190408213912
+5.228.194.194 1 1 21528 20190420194139
+213.251.182.103 2 2 15720 20190420133054
+31.28.57.21 1 1 7860 20190426232643
+195.88.193.28 4 4 96187 20190430235949
+37.17.172.132 3 3 24136 20190417023417
+18.237.124.28 1 1 7860 20190425223824
+54.212.23.125 1 1 7860 20190429055855
+62.210.83.78 1 1 7860 20190407155430
+79.172.119.220 1 1 7860 20190409211339
+95.27.165.33 1 1 7860 20190401023433
+213.87.158.38 2 2 41466 20190417222552
+52.36.35.89 1 1 7860 20190418190549
+79.172.89.211 6 6 56689 20190412002253
+34.208.6.131 1 1 7860 20190404185045
+195.88.193.35 3 3 43056 20190418201726
+2a00:1fa0:489c:7ba6:314d:940f:82c4:1e5e 2 2 27457 20190424080845
+91.134.253.113 3 3 23580 20190430185413
+91.217.227.15 1 1 16211 20190416112705
+31.202.101.40 1 1 7860 20190410222755
+77.37.208.54 1 1 7860 20190409210757
+185.122.28.198 3 3 24136 20190409210730
+37.59.55.45 2 2 15720 20190423014658
+54.169.180.234 5 5 39300 20190406163832
+31.173.81.149 1 1 7860 20190405023942
+94.130.167.248 1 1 7860 20190402033619
+34.222.45.221 1 1 7860 20190411062206
+185.92.223.17 1 1 22309 20190425111218
+34.221.94.105 1 1 7860 20190430062014
+54.184.136.173 1 1 7860 20190408170201
+54.212.210.7 1 1 7860 20190412060310
+54.213.32.95 1 1 7860 20190415061707
+37.145.37.2 1 1 7860 20190427220246
+178.62.82.141 3 3 24136 20190416022323
+52.27.1.212 1 1 7860 20190423213508
+213.87.144.91 1 1 20469 20190417080223
+195.88.193.20 2 2 58576 20190426020248
+37.110.110.110 1 1 7860 20190422081039
+46.39.51.136 5 5 82860 20190417230056
+52.38.232.81 1 1 7860 20190404185045
+176.193.121.153 1 1 7860 20190428185321
+212.92.101.197 1 1 7860 20190408102516
+31.173.81.102 1 1 7860 20190403105019
+54.71.121.141 1 1 7860 20190426060423
+95.158.44.199 1 1 7860 20190402121907
+94.25.169.9 1 1 7860 20190409214900
+52.25.210.106 1 1 7860 20190410180129
+54.245.188.164 1 1 7860 20190408133058
+54.186.176.85 1 1 7860 20190408170201
+178.159.37.34 1 1 7860 20190419213523
+185.153.196.157 1 1 7860 20190407160405
+93.191.20.5 4 4 49050 20190423105619
+5.188.112.42 1 1 7860 20190423150654
+5.188.210.44 5 5 39300 20190425111558
+2a02:6b8:b010:506c::3b 1 1 0 20190418214325
+193.219.127.227 1 1 7860 20190415234458
+109.173.86.28 1 1 10219 20190412102252
+54.244.108.172 1 1 7860 20190426060423
+213.87.154.200 1 1 16211 20190416112508
+18.237.83.126 1 1 7860 20190430002646
+54.191.54.71 1 1 7860 20190426224252
+94.25.170.247 3 3 64584 20190419081656
+18.237.22.51 1 1 7860 20190419061750
+195.88.193.12 2 2 43056 20190420161842
+195.88.193.40 2 2 5871 20190423230508
+91.210.228.247 3 3 24136 20190402145200
+94.25.168.81 2 2 41424 20190417230144
+52.53.189.111 1 1 0 20190417070628
+52.230.20.182 3 3 23580 20190423123508
+89.163.242.241 2 2 15720 20190428032033
+3.85.8.90 1 1 7860 20190404133203
+176.15.19.105 1 1 10219 20190426202850
+88.198.39.184 1 1 7860 20190412041424
+23.100.232.233 4 4 40876 20190420103736
+94.25.170.98 1 1 20469 20190417075243
+94.25.169.217 1 1 7860 20190410235928
+178.140.212.181 1 1 7860 20190410155647
+31.173.83.176 1 1 29288 20190427210045
+91.197.106.80 2 2 7860 20190426235927
+31.173.84.68 2 2 58576 20190427212653
+159.138.21.170 1 1 7860 20190422075125
+62.210.201.91 6 6 47716 20190430023342
+85.25.211.246 1 1 7860 20190410214938
+96.44.178.68 1 1 7860 20190409212122
+2a00:1fa0:8eb:8dec:6587:787f:d03d:d785 1 1 22309 20190425100217
+41.190.33.162 1 1 7860 20190417043745
+195.88.193.57 1 1 16211 20190416115006
+54.244.97.121 1 1 7860 20190411062203
+34.216.77.191 1 1 7860 20190416182507
+185.86.93.3 1 1 7860 20190406170436
+70.42.131.189 1 1 7860 20190415235934
+91.193.177.230 1 1 21528 20190418004428
+34.219.90.42 1 1 7860 20190409200914
+195.88.193.24 3 3 29288 20190426162123
+42.236.10.125 1 1 7860 20190426234118
+54.184.52.175 1 1 7860 20190418190546
+109.191.8.113 1 1 7860 20190426043553
+84.237.228.11 1 1 7860 20190427221432
+140.227.204.199 1 1 7860 20190424203108
+13.57.226.120 1 1 0 20190417212228
+31.173.80.223 2 2 43056 20190418203548
+34.221.99.49 1 1 7860 20190428223737
+79.172.104.112 1 1 7860 20190421235517
+18.237.224.25 1 1 7860 20190429055855
+212.109.197.60 6 6 48272 20190408210419
+109.184.166.84 1 1 7860 20190410065659
+35.167.65.132 1 1 7860 20190410180128
+94.25.171.177 1 1 21528 20190418000900
+213.87.150.163 1 1 0 20190412185940
+195.88.193.5 4 4 41997 20190418010024
+46.28.68.169 1 1 0 20190424000815
+54.218.82.107 1 1 7860 20190430002647
+94.25.169.111 1 1 29288 20190426084045
+93.191.10.137 2 2 13917 20190409211652
+80.252.154.233 1 1 7860 20190406015257
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20190401 3 3 23580 3
+20190402 7 7 55576 5
+20190403 5 5 39856 3
+20190404 8 8 62880 8
+20190405 10 10 78600 6
+20190406 10 10 80959 5
+20190407 5 5 39300 4
+20190408 13 13 102736 10
+20190409 14 14 108793 11
+20190410 10 10 72058 10
+20190411 9 9 104499 6
+20190412 11 11 83874 8
+20190413 4 4 45914 4
+20190414 3 3 15720 3
+20190415 10 10 85214 10
+20190416 37 37 460625 19
+20190417 55 55 900784 17
+20190418 45 45 786972 20
+20190419 8 8 76548 8
+20190420 11 11 136900 8
+20190421 4 4 31440 4
+20190422 14 14 164972 10
+20190423 38 38 461320 15
+20190424 15 15 174324 8
+20190425 14 14 275467 9
+20190426 25 25 387756 16
+20190427 9 9 199308 7
+20190428 8 8 105736 7
+20190429 23 23 489933 9
+20190430 14 14 122449 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 8
+30s-2mn 11
+0s-30s 219
+15mn-30mn 6
+1h+ 3
+2mn-5mn 8
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/ 200 1532700 172 164
+/robototx/ 187 3659532 71 70
+/mycompany.html 14 143066 6 10
+/robototx/products.html 13 64665 6 5
+/printmoscow/ 11 263298 5 5
+/believe.html 9 54513 0 3
+/./believe.html 3 18171 0 2
+/./mycompany.html 3 30657 0 0
+/new/ 1 1318 1 1
+/printmoscow/photo.html 1 6173 0 1
+END_SIDER
